@@ -2,10 +2,22 @@
   "name": "live-streaming",
   "version": "1.0.0",
   "description": "landing page",
-  "main": "index.html",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kabuto43/landing_live_streaming.git"
   },
   "author": "Artem Shyrokov",
-  "license": "ISC"
+  "license": "ISC",
+  "bug": {
+    "url": "https://github.com/Kabuto43/landing_live_streaming/issues"
+  },
+  "homepage": "https://github.com/Kabuto43/landing_live_streaming#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "sass": "^1.72.0"
+  }
 }
